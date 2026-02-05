@@ -120,7 +120,7 @@ class HeistMenuPage extends StatelessWidget {
                 child: HeistButton(
                   label: 'Start the Heist',
                   icon: Icons.play_arrow_rounded,
-                  onPressed: () {},
+                  onPressed: () => Navigator.of(context).pushNamed('/plan'),
                 ),
               ),
             ),
